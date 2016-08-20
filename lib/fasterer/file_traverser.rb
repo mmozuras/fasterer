@@ -76,7 +76,7 @@ module Fasterer
     end
 
     def root_dir
-      @root_dir ||= Pathname('.')
+      @root_dir ||= Pathname(".")
     end
 
     def output(analyzer)
